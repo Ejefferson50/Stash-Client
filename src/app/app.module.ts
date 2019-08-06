@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestEntityComponent } from './test-entity/test-entity.component';
+import { UserComponent } from './component/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestEntityComponent
+    TestEntityComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
