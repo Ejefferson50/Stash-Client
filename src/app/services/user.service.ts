@@ -8,5 +8,9 @@ import { User } from '../models/User';
 })
 export class UserService {
 
+
   constructor(private http: HttpClient) { }
+
+  addUser(user: User): void { }
+  deleteUser(user: User): void { }
 }
